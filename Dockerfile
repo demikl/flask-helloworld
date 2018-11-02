@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.7-alpine
 MAINTAINER Mickaël Le Baillif "mickael.le.baillif@gmail.com"
 COPY . /app
 WORKDIR /app
