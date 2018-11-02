@@ -28,7 +28,6 @@ jobs:
           - v1-dependencies-
 
       - run:
-          name: Setup VirtualEnv
           name: Install dependencies
           command: |
             echo 'export TAG=0.1.${CIRCLE_BUILD_NUM}' >> $BASH_ENV
